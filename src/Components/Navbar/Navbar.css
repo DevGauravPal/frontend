@@ -1,0 +1,61 @@
+.nav-logo p {
+    color: #171717;
+    font-size: 2.375rem;
+    font-weight: 600;
+}
+.nav-menu{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #626262;
+}
+.nav-menu li a{
+    color: #626262;
+}
+
+.nav-menu li {
+    display: flex;
+    flex-direction: column;
+    gap: .1875rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.nav-menu li a.active{
+    color: #ff4141;
+    transition: all 0.2s;
+}
+.nav-menu li hr{
+    border: none;
+    width: 80%;
+    height: .1875rem;
+    border-radius: .625rem;
+    background-color: #ff4141;
+}
+.nav-login-card button{
+    width: 9.8125rem;
+    height: 3.625rem;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 4.6875rem;
+    color: #515151;
+    font-size: 1.25rem;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: white;
+}
+.nav-login-card button:active{
+    background-color: #f3f3f3;
+}
+.nav-login-card .nav-card-count{
+    width: 1.375rem;
+    height: 1.375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2.1875rem;
+    margin-left: -3.4375rem;
+    border-radius: .6875rem;
+    font-size: .875rem;
+    background-color: red;
+    color: white;
+}

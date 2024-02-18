@@ -1,0 +1,50 @@
+.footer{
+    gap: 3.125rem;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.footer-logo p{
+color: #383838;
+font-size: 2.875rem;
+font-weight: 700;
+}
+.footer-links{
+   color: #252525;
+   font-size: 1.25rem;
+}
+
+.footer-links li{
+    cursor: pointer;
+}
+
+.footer-social-icon{
+    display: flex;
+    gap: 1.25rem;
+}
+
+.footer-icons-container{
+    padding: .625rem;
+    padding-bottom: .375rem;
+    background-color: #fbfbfb;
+    border: 1px solid #ebebeb;
+}
+
+.footer-copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.875rem;
+    width: 100%;
+    margin-bottom: 1.875rem;
+    color: #1a1a1a;
+    font-size: 1.25rem;
+}
+
+.footer-copyright hr{
+    width: 80%;
+    border: none;
+    border-radius: .625rem;
+    height: .1875rem;
+    background-color: #c7c7c7;
+}
